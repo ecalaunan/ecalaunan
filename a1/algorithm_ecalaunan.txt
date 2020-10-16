@@ -1,0 +1,42 @@
+Eddyson Calaunan
+Professor Raymond Chan
+OPS435
+October 14, 2020
+
+Assignment 1 Algorithm
+
+
+Main Function
+1: User enters data in the argument in the format yyyymmdd, yyyy/mm/dd, yyyy-mm-dd, or yyyy.mm.dd
+2: If user enters more than 2 arguments exit program
+3: If user enters anything that does not follow the format receives error
+4: Sanitize, remove all the characters that are not numbers leaving only YYYYMMDD. 
+5: Check after sanitize to see if there are 8 characters, if not return error and exit code
+6: Check range of year to see if it is valid in range 1900- 9999, if not return error
+7: Check range of month to see if it is valid 1-12, if not return error
+8: Check if year lands on leap year, if it does adjust februarys amount of days, if not return error
+9: Check day in month to see if it is valid, if not return error
+0: Print new string that shows the users birthday in the format MMM DD, YYYY
+
+
+Leap Year Function
+1: Isolate user year string 
+2: if year is a leap year, return true, if not return false
+
+Sanitize Function
+1: Takes user data and compares it to another list of allowed characters
+2: if character is allowed add it to a new string, if not delete that character
+3: return new string
+
+Size Check Function
+1: after sanitize function, get the length of the string
+2: if the string is the correct length, return true, if not return false
+
+Range Check Function:
+1: takes the specific user input and compares it to a array
+2: if the user input is within the arrays range return true, if not return false
+
+Usage function:
+1: check arguments to see if they are in correct format.
+2: print the format the script should be called and return true.
+
