@@ -66,6 +66,10 @@ def range_check(obj1, obj2):
     return status
     
 def usage():    
+    '''
+    This function will print how to use the script, with possible arguments that can be provided
+    '''
+
     status = "Usage: a1_ecalaunan.py YYYYMMDD|YYYY/MM/DD|YYYY-MM-DD|YYYY.MM.DD"
 
     return status
