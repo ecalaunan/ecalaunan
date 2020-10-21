@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 ''' template for ops435 assignment 1 script
-    put your script level docstring here...
-    you can have more than one line of docstring.
-    Please personlize the following author declaration:
+    The purpose of the script is to take any argument in this form YYYYMMDD|YYYY/MM/DD|YYYY-MM-DD|YYYY.MM.DD"
+    and convert it to a date format like this "MMM DD, YYYY" 
+    for example: this argument "2020/10/21" will return Oct 21, 2020
 -----------------------------------------------------------------------
 OPS435 Assignment 1 - Fall 2020
 Program: a1_ecalaunan.py
