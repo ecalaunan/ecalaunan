@@ -8,7 +8,7 @@ OPS435 Assignment 1 - Fall 2020
 Program: a1_ecalaunan.py
 Author: Eddyson Calaunan
 The python code in this file (a1_ecalaunan.py) is original work written by
-"Student Name". No code in this file is copied from any other source 
+"Eddyson Calaunan". No code in this file is copied from any other source 
 except those provided by the course instructor, including any person, 
 textbook, or on-line resource. I have not shared this python script 
 with anyone or anything except for submission for grading.  
@@ -20,7 +20,7 @@ import sys
 
 def leap_year(obj):
     
-    'put your function level docstring here ...'
+    'This function will check to see if the year provided is a leap year'
     obj_leaptest = obj % 4
     if obj_leaptest > 0 :
     	return False
@@ -29,6 +29,7 @@ def leap_year(obj):
 
 def sanitize(obj1,obj2):
     
+    'This function will create a new string using characters from obj1 that are in obj2. To remove any unnecesary characters'
     sanitizeStr = ''
     counter = 0 
     for i in obj1 :
@@ -43,9 +44,8 @@ def sanitize(obj1,obj2):
 
 def size_check(obj, intobj):
     '''
-    put your function level docstring here ..
+    This function will check to see if the length of obj is equal the intobj 
     '''
-    ...
     if len(obj) != intobj:
     	status = False
     else: 
@@ -56,7 +56,7 @@ def size_check(obj, intobj):
 
 def range_check(obj1, obj2):
     '''
-    put your function level docstring here ..
+    This function will check to see if obj1 is within the range of obj2 
     '''
     if obj1 < obj2[0] or obj1 > obj2[1]: 
     	status = False
