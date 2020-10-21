@@ -20,7 +20,9 @@ import sys
 
 def leap_year(obj):
     
-    'This function will check to see if the year provided is a leap year'
+    '''
+    This function will check to see if the year provided is a leap year
+    '''
     obj_leaptest = obj % 4
     if obj_leaptest > 0 :
     	return False
@@ -29,7 +31,9 @@ def leap_year(obj):
 
 def sanitize(obj1,obj2):
     
-    'This function will create a new string using characters from obj1 that are in obj2. To remove any unnecesary characters'
+    '''
+    This function will create a new string using characters from obj1 that are in obj2. To remove any unnecesary characters
+    '''
     sanitizeStr = ''
     counter = 0 
     for i in obj1 :
