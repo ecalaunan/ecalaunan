@@ -20,8 +20,7 @@ Main Function
 
 
 Leap Year Function
-1: Isolate user year string 
-2: if year is a leap year, return true, if not return false
+1: Check if year provided is divisible by 4 without remainder, if is is return True, if not return False
 
 Sanitize Function
 1: Takes user data and compares it to another list of allowed characters
@@ -29,11 +28,11 @@ Sanitize Function
 3: return new string
 
 Size Check Function
-1: after sanitize function, get the length of the string
+1: get the length of the string
 2: if the string is the correct length, return true, if not return false
 
 Range Check Function:
-1: takes the specific user input and compares it to a array
+1: takes input and compares it to the array
 2: if the user input is within the arrays range return true, if not return false
 
 Usage function:
