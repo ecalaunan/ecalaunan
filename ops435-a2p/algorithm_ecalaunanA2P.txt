@@ -7,7 +7,7 @@ Assignment 2 P Alogrithm First Draft
 
 Class Creation Date
 
-__init__(seldf:
+__init__(self):
 Define these as integers:
 Date.year
 Date.month
