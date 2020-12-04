@@ -1,0 +1,24 @@
+Successfully import a2_class file.
+Retriving Date class attributes: ...
+Date class attributes: ['__add__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__weakref__', 'day_of_week', 'tomorrow', 'yesterday']
+There are 31 attributes
+Expected attributes <__init__> found in Date Object.
+Expected attributes <__str__> found in Date Object.
+Expected attributes <__repr__> found in Date Object.
+Expected attributes <__add__> found in Date Object.
+Expected attributes <__sub__> found in Date Object.
+Expected attributes <tomorrow> found in Date Object.
+Expected attributes <yesterday> found in Date Object.
+Expected attributes <day_of_week> found in Date Object.
+Creating new date object named d1...
+Creating new date object d1 successfully -> 2019/02/28
+Checking __str__ method ...
+Checking __str__ method: passed successfully.
+Checking __repr__ method ...
+Checking __repr__ method: passed successfully.
+Checking tomorrow method ...
+Checking tomorrow method: passed successfully.
+Checking yesterday method ...
+Checking yesterday method: passed successfully.
+Checking day_of_week method ...
+Checking day_of_week method: passed successfully.
