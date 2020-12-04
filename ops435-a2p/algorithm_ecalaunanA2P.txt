@@ -25,7 +25,8 @@ Operator +:
 1: User will enter 'date variable 1' + a number of days being added to the first date
 2: Date variables day value will have the number of days added to it.
 3: If the days exceed the number of days of the month > last day of month, it will change the month field or year field.
-4: if it does not exceed the number of days within the month it will remain the same month or year
+4: Check if it is a leap year and change the days for February accordingly 
+5: if it does not exceed the number of days within the month it will remain the same month or year
 5: It will then put it through the __repr__(self) fucntion and return it as a string in this format 'yyyy-mm-dd'
 
 Operator -:
@@ -35,23 +36,30 @@ Operator -:
 3: Date variables 1 day will have the number of days subtracted from it
 4: if it is a date, the difference of the two dates will be returned
 5: If it exceeds the number of days within the month < 0 , month or year fields will be subtracted
-6:It will then be returned as __repr__(self) string or the difference will be returned
+6:It will then be returned as __repr__(self) string or the difference of the dates will be returned
 
 tomorrow():
 1: The date that is being used in this function, will use the + operator to add 1 day
 2: if the day exceeds the amount of days within the month, the month and year will change respectively to which day it should be
 3: if the day does not exceed month and year will remain the same
-4: return as the __str__(self) string format
+4: return as the __repr__(self) string format
 
 yesterday():
 1: The date that is being used in this function, will use the - operator to subtract 1 day
 2: if the day exceeds the amount of days within the month, the month and year will change respectively to which day it should be
 3: if the day does not exceed month and year will remain the same
-4: return as the __str__(self) string format
+4: return as the __repr__(self) string format
 
 day_of_week():
-1: The date entered will have a number associated with it to determine the day of the week(0-6) represeting (Sunday - Saturday)
-2: Return the number it is associated with when function is called for the date 
+1: The date entered will be entered into the Zellers Congruence formula
+2: This will return a number 0-6 (saturday - friday)
+3: if the day is saturday (0) it will return as 6 according to the values placed for this assignment
+4: if the day is sunday, it will return as 0
+5: if the day is monday, it will return as 1
+6: if the day is tuesday, it will return as 2
+7: if the day is wednesday, it will return as 3
+8: if the day is thursday, it will return as 4
+9: if the day is friday, it will return as 5
 
 
 
